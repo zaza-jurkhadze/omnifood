@@ -1,0 +1,26 @@
+/* big tablets: from 1024 to 1200px*/
+@media only screen and (max-width:1200px) {
+    .hero-text-box {width: 100%; padding: 0 2%;}
+    .row {padding: 0 2%;}
+
+}
+/*small tablets and big tablets: from 768 to 1024px*/
+@media only screen and (max-width:1023px) {
+   body {font-size: 18px;}
+   section {padding-top: 50px;} 
+   .long-copy {width: 80%; margin-left: 10%;}
+   .steps-box {padding: 2%; margin-top: 10px;}
+   .btn-app img {margin-right: 5px;}
+   .works-step {padding-bottom: 2px;margin-top: 25px;}
+   .app-screen {width: 55%; margin-top: 0px;}
+   .steps-box:first-child {margin-top: 20px;}
+}
+
+/*small phones and small tablets: from 480 to 768px*/
+@media only screen and (max-width:767px) {
+      
+}
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px) {
+     
+}
